@@ -1,5 +1,5 @@
 import React from "react";
-import { GiSkills } from "react-icons/gi";
+
 function Skills() {
   return (
     <section id='skills' className="text-gray-600 bg-black body-font min-h-screen p-24">
