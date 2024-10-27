@@ -51,7 +51,7 @@ const Navbar = () => {
               CONTACT ME
             </Link>
           </nav>
-          <Link href="app\public\resume pdf.pdf">
+          <Link href="">
           <button className="mx-auto inline-flex font-medium font-serif items-center text-white bg-orange-700 border-spacing-2 shadow-md  py-1 px-3  hover:bg-orange-500 rounded mt-4 md:mt-0 lg:mr-2">
             Download CV
             <MdDownloadForOffline className="ml-3 size-5" />
