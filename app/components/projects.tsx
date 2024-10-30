@@ -2,6 +2,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import card from '../public/GIAIC card.png'
+import calc from '../public/simple calculator.png'
+import resume from '../public/Screenshot_26-10-2024_135439_.jpeg'
 
 function Projects() {
   return (
@@ -20,7 +23,9 @@ function Projects() {
           <Image
             alt="GIAIC Card Pic "
             className="absolute inset-0 w-full h-full object-fill object-center"
-            src={require('../public/GIAIC card.png')}
+            src={card}
+            width={400}
+            height={300}
             
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
@@ -47,8 +52,10 @@ function Projects() {
         <div className="flex relative">
           <Image
             alt="calculator pic"
-            src={require("../public/simple calculator.png")}
-            
+            src={calc}
+            width={400}
+            height={300}
+           
             className="absolute inset-0 w-full h-full  object-center object-fill"
 
 
@@ -77,7 +84,9 @@ function Projects() {
           <Image
             alt="Resume"
             className="absolute inset-0 w-full h-full object-fill object-center"
-            src={require("../public/Screenshot_26-10-2024_135439_.jpeg")}
+            src={resume}
+            width={400}
+            height={300}
           />
           <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
           <h2 className="tracking-widest text-xl title-font font-medium text-gray-900 mb-1">
@@ -87,7 +96,7 @@ function Projects() {
               RESUME
             </h1>
             <p className="leading-relaxed line-clamp-2">
-              It's my responsive resume using html and css only. 
+              It is my responsive resume using html and css only. 
 
             </p>
             <a href="https://responsive-resume-psi.vercel.app/" target='_blank'>
